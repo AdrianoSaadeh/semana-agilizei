@@ -1,4 +1,4 @@
 # semana-agilizei
 
-Aula 01
+Aula 01:
 
