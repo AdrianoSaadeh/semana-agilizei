@@ -11,4 +11,4 @@ Feature: Listagem
      Scenario: Listagem com apenas um registro
         Given que o site possui apenas um registro
         When acessar a listagem
-        Then devo ver a slitagem com apenas um registro
+        Then devo ver a listagem com apenas um registro
