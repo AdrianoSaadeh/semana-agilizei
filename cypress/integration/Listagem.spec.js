@@ -15,7 +15,7 @@ context('Listagem', () => {
         cy.get('div[role=row]').should('have.length', 1); 
     });
 
-    it('Listagem com registors', () => {
+    it('Listagem com registros', () => {
         cy.server();
         cy.route({
             method: 'GET',

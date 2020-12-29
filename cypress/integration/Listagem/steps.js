@@ -31,7 +31,7 @@ Given(/^que o site possui apenas um registro$/, () => {
     }).as('getNewTable');
 });
 
-Then(/^devo ver a slitagem com apenas um registro$/, () => {
+Then(/^devo ver a listagem com apenas um registro$/, () => {
     cy.get('div[role=row] div[role=gridcell]').eq(4).find('div').as('gridCellPhone');
     cy.get('@gridCellPhone').should('contain.text', '3516864060');
 });

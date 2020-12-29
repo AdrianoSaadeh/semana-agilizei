@@ -21,7 +21,7 @@ context('Cadastro', () => {
         cy.get('input[ng-model = EmailAdress]').type(chance.email());
         cy.get('input[ng-model = Phone]').type(chance.phone({formatted: false}));
 
-        //checkboxes
+        //radio and checkboxes
         cy.get('input[value = FeMale').check();
         cy.get('input[type = checkbox').check('Movies');
 
